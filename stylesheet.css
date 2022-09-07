@@ -49,34 +49,34 @@ table {
 
 @font-face {
     font-family: RM;
-    src: url(/fonts/RubikMaze-Regular.ttf);
+    src: url(./fonts/RubikMaze-Regular.ttf);
 }
 @font-face {
     font-family: AFF;
-    src: url(/fonts/AbrilFatface-Regular.ttf);
+    src: url(./fonts/AbrilFatface-Regular.ttf);
 }
 @font-face {
     font-family: TR;
-    src: url(/fonts/TurretRoad-Regular.ttf);
+    src: url(./fonts/TurretRoad-Regular.ttf);
 }
 @font-face {
     font-family: Gruppo;
-    src: url(/fonts/Gruppo-Regular.ttf);
+    src: url(./fonts/Gruppo-Regular.ttf);
 }
 
 @font-face {
     font-family: NR;
-    src: url(/fonts/Noah-Regular.woff);
+    src: url(./fonts/Noah-Regular.woff);
 }
 
 @font-face {
     font-family: NSEL;
-    src: url(/fonts/NotoSans-ExtraLight.ttf);
+    src: url(./fonts/NotoSans-ExtraLight.ttf);
 }
 
 @font-face {
     font-family: NST;
-    src: url(/fonts/NotoSans-Thin.ttf);
+    src: url(./fonts/NotoSans-Thin.ttf);
 }
 
 html, body
