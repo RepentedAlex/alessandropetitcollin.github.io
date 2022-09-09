@@ -90,6 +90,40 @@ html, body
     margin: 0%;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #6D6875;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: NR;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #B0B0BF;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #6BAB90;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
 #conteneur
 {
     margin-left: 5%;
