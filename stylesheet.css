@@ -204,15 +204,22 @@ p
 
     hr
     {
-      margin-left: auto;
-      margin-right: auto;
+      padding: 0% auto;
     }
 
     p
     {
-      margin: 0% 5%;
+      padding: 0% 5%;
       font-size: 18px;
       text-align: justify;
       line-height: 20px;
+    }
+
+    #conteneur_logos
+    {
+      background-color: blue;
+      margin: 0% 20%;
+      padding: 0%;
+      justify-content: space-between;
     }
   }
