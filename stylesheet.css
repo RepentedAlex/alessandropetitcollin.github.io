@@ -199,13 +199,12 @@ p
       display: block;
       text-align: left;
     }
-  }
-
+    
     #conteneur
     {
-        width: 100%;
-        margin-left: 0%;
-        overflow: hidden;
+      width: 100%;
+      margin-left: 0%;
+      overflow: hidden;
     }
 
     h1
