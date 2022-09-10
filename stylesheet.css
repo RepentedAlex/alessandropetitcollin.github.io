@@ -189,13 +189,6 @@ p
 
   @media screen and (max-width: 480px)
   {
-    #bloc_page
-{
-  background-color: coral;
-    width: auto;
-    margin: 1%;
-}
-
     #conteneur
     {
         width: 100%;
@@ -207,7 +200,6 @@ p
     {
       font-size: 250%;
       text-align: center;
-      background-color: red;
     }
 
     hr
@@ -226,7 +218,6 @@ p
 
     #conteneur_logos
     {
-      background-color: blue;
       margin: 0% 20%;
       justify-content: space-between;
     }
