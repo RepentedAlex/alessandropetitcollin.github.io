@@ -197,6 +197,11 @@ p
 
   @media screen and (max-width: 480px)
   {
+    .topnav
+    {
+      justify-content: space-between;
+    }
+
     #conteneur
     {
         width: 100%;
