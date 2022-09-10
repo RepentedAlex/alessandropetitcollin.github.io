@@ -70,6 +70,11 @@ table {
 }
 
 @font-face {
+  font-family: NSL;
+  src: url(./fonts/NotoSans-Light.ttf);
+}
+
+@font-face {
     font-family: NSEL;
     src: url(./fonts/NotoSans-ExtraLight.ttf);
 }
@@ -214,7 +219,7 @@ p
       font-size: 18px;
       text-align: justify;
       line-height: 20px;
-      font-family: NSEL;
+      font-family: NSL;
     }
 
     #conteneur_logos
