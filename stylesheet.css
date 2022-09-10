@@ -145,7 +145,8 @@ h1
     font-family: NR;
     color: #6D6875;
     font-size: 60px;
-    letter-spacing: .5rem;    
+    letter-spacing: .5rem;
+
 }
 
 hr
@@ -183,5 +184,9 @@ p
       float: none;
       display: block;
       text-align: left;
+    }
+    .h1
+    {
+        font-size: 30px;
     }
   }
