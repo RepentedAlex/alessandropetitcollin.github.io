@@ -170,6 +170,10 @@ p
       float: right;
       display: block;
     }
+    .h1
+    {
+        font-size: .01rem;
+    }
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -184,9 +188,5 @@ p
       float: none;
       display: block;
       text-align: left;
-    }
-    .h1
-    {
-        font-size: .01rem;
     }
   }
