@@ -206,6 +206,7 @@ p
     h1
     {
       font-size: 300%;
+      overflow: visible;
       text-align: center;
     }
 
