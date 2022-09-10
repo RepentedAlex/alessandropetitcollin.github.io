@@ -205,9 +205,9 @@ p
 
     h1
     {
-      font-size: 300%;
-      overflow: visible;
+      font-size: 250%;
       text-align: center;
+      background-color: red;
     }
 
     hr
