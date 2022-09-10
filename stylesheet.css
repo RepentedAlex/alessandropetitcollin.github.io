@@ -189,6 +189,13 @@ p
 
   @media screen and (max-width: 480px)
   {
+    #bloc_page
+{
+  background-color: coral;
+    width: auto;
+    margin: 1%;
+}
+
     #conteneur
     {
         width: 100%;
