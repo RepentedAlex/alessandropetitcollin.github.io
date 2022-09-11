@@ -202,7 +202,11 @@ p
       display: block;
       text-align: left;
     }
-    
+    #centrer
+    {
+      background-color: red;
+    }
+
     #conteneur
     {
       width: 100%;
