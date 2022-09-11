@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain)*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers*/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -95,7 +95,7 @@ html, body
     margin: 0%;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation*/
 .topnav
 {
   display: flex;
@@ -103,7 +103,7 @@ html, body
   overflow: hidden;
 }
   
-  /* Style the links inside the navigation bar */
+  /* Style the links inside the navigation bar*/
   .topnav a {
     float: left;
     display: block;
@@ -115,19 +115,19 @@ html, body
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  /* Change the color of links on hover*/
   .topnav a:hover {
     background-color: #B0B0BF;
     color: black;
   }
   
-  /* Add an active class to highlight the current page */
+  /* Add an active class to highlight the current page*/
   .topnav a.active {
     background-color: #6BAB90;
     color: white;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
+  /* Hide the link that should open and close the topnav on small screens*/
   .topnav .icon {
     display: none;
   }
@@ -178,6 +178,7 @@ p
     {
       background-color: #6BAB90;
       justify-content: space-between;
+      display: block;
     }
 
     .topnav a:not(:first-child) {display: none;}
@@ -187,9 +188,11 @@ p
       background-color: #B0B0BF;
     }
 
-    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally)*/
     .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
+    .topnav.responsive a.icon
+    {
+      color: #6D6875;
       position: absolute;
       right: 0;
       top: 0;
@@ -232,5 +235,16 @@ p
     {
       margin: 10px 20%;
       justify-content: space-between;
+    }
+
+    .topnav.responsive a
+    {
+      color: #E6E6FA;
+    }
+
+    .topnav.responsive a.active
+    {
+      background-color: #B0B0BF;
+      color: #6D6875;
     }
   }
