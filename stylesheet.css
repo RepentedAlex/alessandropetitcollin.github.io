@@ -1,180 +1,222 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)*/
+.topnav a,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
 
-
-html,
-body,
-div,
-span,
+a,
+abbr,
+acronym,
+address,
 applet,
-object,
-iframe,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
+header,
+hgroup,
+html,
+i,
+iframe,
 img,
 ins,
 kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
 q,
+ruby,
 s,
 samp,
+section,
 small,
+span,
 strike,
 strong,
 sub,
+summary,
 sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
 tt,
+u,
+ul,
 var,
-b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,
-thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,
-hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: baseline
 }
 
-/* HTML5 display-role reset for older browsers*/
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-  display: block;
+.topnav a,
+h1 {
+  font-family: NR;
+  color: #6d6875
 }
 
 body {
-  line-height: 1;
+  line-height: 1
 }
 
 ol,
 ul {
-  list-style: none;
+  list-style: none
 }
 
 blockquote,
 q {
-  quotes: none;
+  quotes: none
 }
 
-blockquote:before,
 blockquote:after,
-q:before,
-q:after {
+blockquote:before,
+q:after,
+q:before {
   content: '';
-  content: none;
+  content: none
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 0
 }
 
 @font-face {
   font-family: RM;
-  src: url(./fonts/RubikMaze-Regular.ttf);
+  src: url(./fonts/RubikMaze-Regular.ttf)
 }
 
 @font-face {
   font-family: AFF;
-  src: url(./fonts/AbrilFatface-Regular.ttf);
+  src: url(./fonts/AbrilFatface-Regular.ttf)
 }
 
 @font-face {
   font-family: TR;
-  src: url(./fonts/TurretRoad-Regular.ttf);
+  src: url(./fonts/TurretRoad-Regular.ttf)
 }
 
 @font-face {
   font-family: Gruppo;
-  src: url(./fonts/Gruppo-Regular.ttf);
+  src: url(./fonts/Gruppo-Regular.ttf)
 }
 
 @font-face {
   font-family: NR;
-  src: url(./fonts/Noah-Regular.woff);
+  src: url(./fonts/Noah-Regular.woff)
 }
 
 @font-face {
   font-family: NSL;
-  src: url(./fonts/NotoSans-Light.ttf);
+  src: url(./fonts/NotoSans-Light.ttf)
 }
 
 @font-face {
   font-family: NSEL;
-  src: url(./fonts/NotoSans-ExtraLight.ttf);
+  src: url(./fonts/NotoSans-ExtraLight.ttf)
 }
 
 @font-face {
   font-family: NST;
-  src: url(./fonts/NotoSans-Thin.ttf);
+  src: url(./fonts/NotoSans-Thin.ttf)
 }
 
-html,
-body {
-  background-color: #E6E6FA;
+body,
+html {
+  background-color: #e6e6fa
 }
 
 #bloc_page {
   width: 100%;
-  margin: 0%;
+  margin: 0
 }
 
-/* Add a black background color to the top navigation*/
 .topnav {
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden
 }
 
-/* Style the links inside the navigation bar*/
 .topnav a {
   float: left;
-  display: block;
-  color: #6D6875;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: NR;
-  font-size: 17px;
+  font-size: 17px
 }
 
-/* Change the color of links on hover*/
 .topnav a:hover {
-  background-color: #B0B0BF;
-  color: black;
+  background-color: #b0b0bf;
+  color: #000
 }
 
-/* Add an active class to highlight the current page*/
 .topnav a.active {
-  background-color: #6BAB90;
-  color: white;
+  background-color: #6bab90;
+  color: #fff
 }
 
-/* Hide the link that should open and close the topnav on small screens*/
 .topnav .icon {
-  display: none;
+  display: none
 }
 
 #conteneur {
   margin-left: 5%;
   margin-top: 30%;
-  width: 35%;
+  width: 35%
 }
 
 #conteneur_logos {
@@ -182,100 +224,93 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 h1 {
-  font-family: NR;
-  color: #6D6875;
   font-size: 60px;
-  letter-spacing: .5rem;
-
+  letter-spacing: .5rem
 }
 
 hr {
-  margin-left: 0%;
+  margin-left: 0;
   border: 0;
-  border-top: 3px solid black;
-  width: 33%;
+  border-top: 3px solid #000;
+  width: 33%
 }
 
 p {
   font-family: NST;
-  color: #6D6875;
-  line-height: normal;
+  color: #6d6875;
+  line-height: normal
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
   .topnav {
-    background-color: #6BAB90;
+    background-color: #6bab90;
     justify-content: space-between;
-    display: block;
+    display: block
   }
 
   .topnav a:not(:first-child) {
-    display: none;
+    display: none
   }
 
   .topnav a.icon {
     float: right;
     display: block;
-    background-color: #B0B0BF;
+    background-color: #b0b0bf
   }
 
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally)*/
   .topnav.responsive {
-    position: relative;
+    position: relative
   }
 
   .topnav.responsive a.icon {
-    color: #6D6875;
+    color: #6d6875;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 0
   }
 
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
+    color: #e6e6fa
   }
 
   #conteneur {
     width: 100%;
-    margin-left: 0%;
-    overflow: hidden;
+    margin-left: 0;
+    overflow: hidden
   }
 
   h1 {
     font-size: 250%;
-    text-align: center;
+    text-align: center
   }
 
   hr {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
   }
 
   p {
-    margin: 0% 5%;
+    margin: 0 5%;
     font-size: 18px;
     text-align: justify;
     line-height: 20px;
-    font-family: NSL;
+    font-family: NSL
   }
 
   #conteneur_logos {
     margin: 10px 20%;
-    justify-content: space-between;
-  }
-
-  .topnav.responsive a {
-    color: #E6E6FA;
+    justify-content: space-between
   }
 
   .topnav.responsive a.active {
-    background-color: #B0B0BF;
-    color: #6D6875;
+    background-color: #b0b0bf;
+    color: #6d6875
   }
 }
