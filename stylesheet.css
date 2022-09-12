@@ -245,6 +245,11 @@ p {
   line-height: normal
 }
 
+a
+{
+  all: unset;
+}
+
 @media screen and (max-width:480px) {
   .topnav {
     background-color: #6bab90;
